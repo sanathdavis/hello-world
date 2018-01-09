@@ -191,6 +191,7 @@
                             if (answer) {
                                 alert ("mmmm. 100 choichappo enthayirunnu? ok ok. 200 dollars deducted.")
                                 window.navigator.vibrate(0);
+                                $( "body#ph" ).removeClass( "shake-hard")
                             } else {
                                 alert ("Nee theernneda");
                                 $( "body#ph" ).removeClass( "shake-hard shake-slow" ).addClass( "shake-crazy" );
