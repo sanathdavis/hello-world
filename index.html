@@ -1,0 +1,209 @@
+<html>
+    <head>
+        <title>Incoming!!</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+        <style>
+            /*! * * * * * * * * * * * * * * * * * * * *\  
+  CSShake :: shake-slow
+  v1.5.0
+  CSS classes to move your DOM
+  (c) 2015 @elrumordelaluz
+  http://elrumordelaluz.github.io/csshake/
+  Licensed under MIT
+\* * * * * * * * * * * * * * * * * * * * */
+.shake-slow {
+  display: inline-block;
+  transform-origin: center center; }
+
+.shake-freeze,
+.shake-constant.shake-constant--hover:hover,
+.shake-trigger:hover .shake-constant.shake-constant--hover {
+  animation-play-state: paused; }
+
+.shake-freeze:hover,
+.shake-trigger:hover .shake-freeze, .shake-slow:hover,
+.shake-trigger:hover .shake-slow {
+  animation-play-state: running; }
+
+@keyframes shake-slow {
+  2% {
+    transform: translate(0px, -3px) rotate(3.5deg); }
+  4% {
+    transform: translate(-9px, -3px) rotate(0.5deg); }
+  6% {
+    transform: translate(-7px, 4px) rotate(-0.5deg); }
+  8% {
+    transform: translate(7px, 5px) rotate(2.5deg); }
+  10% {
+    transform: translate(-1px, -3px) rotate(-1.5deg); }
+  12% {
+    transform: translate(-3px, 8px) rotate(1.5deg); }
+  14% {
+    transform: translate(9px, -7px) rotate(2.5deg); }
+  16% {
+    transform: translate(1px, -9px) rotate(3.5deg); }
+  18% {
+    transform: translate(-4px, 7px) rotate(-1.5deg); }
+  20% {
+    transform: translate(6px, 3px) rotate(0.5deg); }
+  22% {
+    transform: translate(4px, -2px) rotate(-1.5deg); }
+  24% {
+    transform: translate(-7px, -8px) rotate(3.5deg); }
+  26% {
+    transform: translate(-5px, 9px) rotate(2.5deg); }
+  28% {
+    transform: translate(0px, -2px) rotate(-1.5deg); }
+  30% {
+    transform: translate(5px, 9px) rotate(1.5deg); }
+  32% {
+    transform: translate(6px, 2px) rotate(-1.5deg); }
+  34% {
+    transform: translate(-9px, 9px) rotate(2.5deg); }
+  36% {
+    transform: translate(-8px, 10px) rotate(3.5deg); }
+  38% {
+    transform: translate(2px, -4px) rotate(-2.5deg); }
+  40% {
+    transform: translate(2px, 7px) rotate(-2.5deg); }
+  42% {
+    transform: translate(2px, 4px) rotate(3.5deg); }
+  44% {
+    transform: translate(-8px, -3px) rotate(2.5deg); }
+  46% {
+    transform: translate(5px, -3px) rotate(1.5deg); }
+  48% {
+    transform: translate(9px, 4px) rotate(3.5deg); }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1.5deg); }
+  52% {
+    transform: translate(-9px, 4px) rotate(-1.5deg); }
+  54% {
+    transform: translate(-1px, -6px) rotate(-2.5deg); }
+  56% {
+    transform: translate(4px, -6px) rotate(0.5deg); }
+  58% {
+    transform: translate(-8px, 2px) rotate(2.5deg); }
+  60% {
+    transform: translate(2px, 10px) rotate(3.5deg); }
+  62% {
+    transform: translate(5px, 5px) rotate(1.5deg); }
+  64% {
+    transform: translate(5px, 7px) rotate(-0.5deg); }
+  66% {
+    transform: translate(-6px, 9px) rotate(-0.5deg); }
+  68% {
+    transform: translate(4px, -2px) rotate(0.5deg); }
+  70% {
+    transform: translate(-5px, -3px) rotate(3.5deg); }
+  72% {
+    transform: translate(2px, 5px) rotate(-0.5deg); }
+  74% {
+    transform: translate(-9px, 4px) rotate(3.5deg); }
+  76% {
+    transform: translate(3px, -7px) rotate(1.5deg); }
+  78% {
+    transform: translate(0px, 4px) rotate(2.5deg); }
+  80% {
+    transform: translate(-1px, 4px) rotate(1.5deg); }
+  82% {
+    transform: translate(8px, 2px) rotate(1.5deg); }
+  84% {
+    transform: translate(7px, -6px) rotate(-0.5deg); }
+  86% {
+    transform: translate(3px, 0px) rotate(0.5deg); }
+  88% {
+    transform: translate(7px, -9px) rotate(-1.5deg); }
+  90% {
+    transform: translate(1px, 3px) rotate(0.5deg); }
+  92% {
+    transform: translate(10px, 3px) rotate(-0.5deg); }
+  94% {
+    transform: translate(4px, 1px) rotate(1.5deg); }
+  96% {
+    transform: translate(3px, 9px) rotate(2.5deg); }
+  98% {
+    transform: translate(4px, -7px) rotate(0.5deg); }
+  0%, 100% {
+    transform: translate(0, 0) rotate(0); } }
+
+.shake-slow:hover,
+.shake-trigger:hover .shake-slow, .shake-slow.shake-freeze, .shake-slow.shake-constant {
+  animation-name: shake-slow;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite; }
+        </style>
+        <style>
+            /*! * * * * * * * * * * * * * * * * * * * *\  
+  CSShake :: shake-crazy
+  v1.5.0
+  CSS classes to move your DOM
+  (c) 2015 @elrumordelaluz
+  http://elrumordelaluz.github.io/csshake/
+  Licensed under MIT
+\* * * * * * * * * * * * * * * * * * * * */.shake-crazy{display:inline-block;transform-origin:center center}.shake-freeze,.shake-constant.shake-constant--hover:hover,.shake-trigger:hover .shake-constant.shake-constant--hover{animation-play-state:paused}.shake-freeze:hover,.shake-trigger:hover .shake-freeze,.shake-crazy:hover,.shake-trigger:hover .shake-crazy{animation-play-state:running}@keyframes shake-crazy{10%{transform:translate(1px, -15px) rotate(-9deg);opacity:.29}20%{transform:translate(4px, -15px) rotate(-4deg);opacity:.57}30%{transform:translate(-9px, 3px) rotate(-5deg);opacity:.03}40%{transform:translate(-1px, -11px) rotate(9deg);opacity:.39}50%{transform:translate(8px, -19px) rotate(7deg);opacity:.37}60%{transform:translate(11px, 19px) rotate(-1deg);opacity:.28}70%{transform:translate(-12px, 10px) rotate(9deg);opacity:.99}80%{transform:translate(-14px, -19px) rotate(9deg);opacity:.76}90%{transform:translate(12px, -15px) rotate(9deg);opacity:.14}0%,100%{transform:translate(0, 0) rotate(0)}}.shake-crazy:hover,.shake-trigger:hover .shake-crazy,.shake-crazy.shake-freeze,.shake-crazy.shake-constant{animation-name:shake-crazy;animation-duration:100ms;animation-timing-function:ease-in-out;animation-iteration-count:infinite}
+        </style>
+        <style>
+            /*! * * * * * * * * * * * * * * * * * * * *\  
+  CSShake :: shake-hard
+  v1.5.0
+  CSS classes to move your DOM
+  (c) 2015 @elrumordelaluz
+  http://elrumordelaluz.github.io/csshake/
+  Licensed under MIT
+\* * * * * * * * * * * * * * * * * * * * */.shake-hard{display:inline-block;transform-origin:center center}.shake-freeze,.shake-constant.shake-constant--hover:hover,.shake-trigger:hover .shake-constant.shake-constant--hover{animation-play-state:paused}.shake-freeze:hover,.shake-trigger:hover .shake-freeze,.shake-hard:hover,.shake-trigger:hover .shake-hard{animation-play-state:running}@keyframes shake-hard{2%{transform:translate(-7px, -7px) rotate(2.5deg)}4%{transform:translate(10px, 3px) rotate(1.5deg)}6%{transform:translate(2px, 10px) rotate(-.5deg)}8%{transform:translate(8px, -4px) rotate(-1.5deg)}10%{transform:translate(-5px, 8px) rotate(.5deg)}12%{transform:translate(9px, -1px) rotate(-1.5deg)}14%{transform:translate(5px, 8px) rotate(-.5deg)}16%{transform:translate(9px, -5px) rotate(-.5deg)}18%{transform:translate(10px, 9px) rotate(3.5deg)}20%{transform:translate(9px, -4px) rotate(3.5deg)}22%{transform:translate(9px, -6px) rotate(-1.5deg)}24%{transform:translate(5px, 6px) rotate(-2.5deg)}26%{transform:translate(-1px, -7px) rotate(1.5deg)}28%{transform:translate(-2px, 10px) rotate(2.5deg)}30%{transform:translate(4px, 7px) rotate(-.5deg)}32%{transform:translate(6px, -3px) rotate(2.5deg)}34%{transform:translate(-7px, -8px) rotate(.5deg)}36%{transform:translate(9px, -7px) rotate(-.5deg)}38%{transform:translate(7px, 0px) rotate(-.5deg)}40%{transform:translate(-8px, 4px) rotate(.5deg)}42%{transform:translate(-6px, 0px) rotate(.5deg)}44%{transform:translate(4px, 9px) rotate(-2.5deg)}46%{transform:translate(4px, -4px) rotate(-.5deg)}48%{transform:translate(-1px, -2px) rotate(1.5deg)}50%{transform:translate(-2px, 2px) rotate(-1.5deg)}52%{transform:translate(9px, -1px) rotate(1.5deg)}54%{transform:translate(-8px, 1px) rotate(-2.5deg)}56%{transform:translate(4px, 10px) rotate(1.5deg)}58%{transform:translate(2px, 5px) rotate(-.5deg)}60%{transform:translate(8px, -8px) rotate(3.5deg)}62%{transform:translate(-3px, -4px) rotate(1.5deg)}64%{transform:translate(1px, -7px) rotate(.5deg)}66%{transform:translate(0px, 4px) rotate(3.5deg)}68%{transform:translate(-1px, -1px) rotate(1.5deg)}70%{transform:translate(2px, 7px) rotate(-1.5deg)}72%{transform:translate(2px, 3px) rotate(.5deg)}74%{transform:translate(3px, 4px) rotate(-.5deg)}76%{transform:translate(10px, 6px) rotate(-2.5deg)}78%{transform:translate(-7px, 6px) rotate(2.5deg)}80%{transform:translate(-5px, -6px) rotate(3.5deg)}82%{transform:translate(-4px, 7px) rotate(3.5deg)}84%{transform:translate(-3px, -7px) rotate(2.5deg)}86%{transform:translate(-3px, -8px) rotate(2.5deg)}88%{transform:translate(-5px, 5px) rotate(-.5deg)}90%{transform:translate(-2px, 4px) rotate(-.5deg)}92%{transform:translate(2px, 1px) rotate(-.5deg)}94%{transform:translate(-2px, -1px) rotate(-1.5deg)}96%{transform:translate(-1px, -8px) rotate(-2.5deg)}98%{transform:translate(-9px, 2px) rotate(3.5deg)}0%,100%{transform:translate(0, 0) rotate(0)}}.shake-hard:hover,.shake-trigger:hover .shake-hard,.shake-hard.shake-freeze,.shake-hard.shake-constant{animation-name:shake-hard;animation-duration:100ms;animation-timing-function:ease-in-out;animation-iteration-count:infinite}
+        </style>
+    </head>
+    <body id="ph" style="background-color: #212121">
+        <div style="position:relative; left:0; top:0;">
+            <img style="position:relative; top:0; left:0;" class="responsive" src="https://cdn.makeuseof.com/wp-content/uploads/2013/12/android-incoming-call.jpg" alt="Incoming call">
+            <img id="accept" src="https://cdn0.iconfinder.com/data/icons/social-messaging-ui-color-shapes/128/phone-circle-blue-128.png" style="position:absolute; top:290; left:10;">
+            <img id="decline" src="https://cdn2.iconfinder.com/data/icons/social-messaging-ui-color-shapes/128/phone-circle-red-2-128.png" style="position:absolute; top:290; left:160;">
+        </div>
+        <script>
+            $("body#ph").click(function(){
+                window.navigator.vibrate([2000,300,2000,300,2000,300,2000,300,2000,300,2000,300,2000,300,2000,300,2000,300,2000,300,2000,300,2000,300,2000,300,2000,300,2000,300,2000,300,2000,300,2000,300,2000]);
+                $("img#accept").addClass("shake-slow shake-constant");
+                $("img#decline").addClass("shake-slow shake-constant");
+            });
+            $("img#accept").click(function(){
+                $("body#ph").addClass("shake-slow shake-constant");
+                alert('Virus Infected. Good Bye');
+                window.navigator.vibrate([200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,200,100,]);
+                
+                    setTimeout(function () {
+                        var answer = confirm ("You still have hope. Pay me 100 US dollars?")
+                        if (answer) {
+                            alert ("Thank you. You are safe now. 100 dollars deducted")
+                            $( "body#ph" ).removeClass( "shake-slow" )
+                            window.navigator.vibrate(0);
+                        } else {
+                            alert ("OK THEN!");
+                            $( "body#ph" ).removeClass( "shake-slow" ).addClass( "shake-hard" );
+                            window.navigator.vibrate([800,100,800,100,800,100,800,100,800,100,800,100,800,100,800,100,800,100,800,100,800,100,800,100,800,100,800,100,800,100,800,100]);
+                            setTimeout(function () {
+                            var answer = confirm ("Last Chance. Pay me 200 US dollars?")
+                            if (answer) {
+                                alert ("mmmm. 100 choichappo enthayirunnu? ok ok. 200 dollars deducted.")
+                                window.navigator.vibrate(0);
+                            } else {
+                                alert ("Nee theernneda");
+                                $( "body#ph" ).removeClass( "shake-hard shake-slow" ).addClass( "shake-crazy" );
+                                window.navigator.vibrate(5000,300,5000,300,5000,300,5000,300,5000,300,5000,300,5000,300,5000,300)
+                            }
+
+                            }, 2000);
+                        }
+                        
+                        
+                        
+                    }, 2000);
+            })
+        </script>    
+    </body>
+</html>
